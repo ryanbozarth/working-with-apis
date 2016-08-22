@@ -16,10 +16,28 @@
 	display: inline-block;
 }
 
-.search-button {
+.search-button, .previous, .next {
 	width: 80px;
 	border-radius: 2px;
 	border: none;
+}
+
+.pagination {
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.previous, .next {
+	margin-top: 50px;
+}
+
+.previous {
+	justify-content: flex-start;
+}
+
+.next {
+	justify-content: flex-end;
 }
 
 #search-results {
